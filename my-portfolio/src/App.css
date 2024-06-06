@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  text-align: left;
+  background-image: url('./images/bg1.jpg');
+  background-size: cover;
+
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  justify-items: left;
+  padding-left: 2px;
+}
+.bog,ul,li {
+  display: inline-flex;
+  padding-left: 15px;
+}
+
+.bg {
+  padding-top: 50px;
+  text-align: center;
+}
+.green {
+  color: rgb(34, 12, 116);
+}
+.text {
+  color:gold ;
+}
+.black {
+  color: black;
+}
+h3 {
+  color: black;
+}
+.front {
+  padding-left: 15px;
+}
+li {
+  text-align: center;
+  padding-left: 80px;
+  color: rgb(23, 235, 23);
+  font-weight: 400;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+li:hover {
+  color: aqua;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+footer {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+.button {
+background-color: rgb(22, 22, 75);
+color: white;
+}
