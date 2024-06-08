@@ -4,21 +4,51 @@
   padding: 2rem;
   padding-top: 0.5rem;
   text-align: left;
-  background-image: url('./images/bg1.jpg');
-  background-size: cover;
+  /*  */
+ 
 
 }
+* {
+  box-sizing: border-box;
+}
+.main {
+  background-image: url('./images/bg1.jpg');
+  padding-bottom: 30px;
+}
+.hero {
+  background-color: #0b113f;
 
-img {
-  height: 60px;
+}
+.jon {
+  padding: 7px;
+  color: red;
+}
+.gree {
+  color: green;
+}
+.jon,.gree {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.nav-logo {
   width: 60px;
   border-radius: 50%;
-  justify-items: left;
-  padding-left: 2px;
+ 
 }
-.bog,ul,li {
-  display: inline-flex;
-  padding-left: 15px;
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav-items > li {
+  padding: 10px;
 }
 
 .bg {
@@ -27,6 +57,7 @@ img {
 }
 .green {
   color: rgb(34, 12, 116);
+  padding-top: 35px;
 }
 .text {
   color:gold ;
@@ -39,6 +70,7 @@ h3 {
 }
 .front {
   padding-left: 15px;
+  text-align: center;
 }
 li {
   text-align: center;
@@ -64,17 +96,13 @@ li:hover {
   color: aqua;
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
 footer {
   color: white;
   text-align: center;
-  padding-top: 60px;
+  background-color:  #0b113f;
+ padding-top: 30px;
+ padding-bottom: 30px
 }
 .button {
 background-color: rgb(22, 22, 75);
