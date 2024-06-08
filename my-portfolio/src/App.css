@@ -14,6 +14,7 @@
 .main {
   background-image: url('./images/bg1.jpg');
   padding-bottom: 30px;
+  background-size: cover;
 }
 .hero {
   background-color: #0b113f;
