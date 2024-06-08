@@ -9,25 +9,30 @@ import githubLogo from './images/github.png'
 import backLogo from './images/back.png'
 import './App.css'
 
-function App() {
+export default function App() {
   
 
   return (
     <section className='hero'>
-     <div className='bog'>
-      <img src={backLogo} alt="my-Logo" />
-      <ol>
-        <a href="#"><li>HOME</li></a>
+     <header className='bog'>
+      <nav className='nav'>
+        <img src={backLogo} alt="my-Logo" className='nav-logo' />
+        <h2 className='jon'>JON <i className='gree'>SPYCE</i></h2>
+      <ol className='nav-items'>
+        <a href="./"><li>HOME</li></a>
         <a href="#"><li>PROJECTS</li></a>
         <a href="#"><li>CONTACT</li></a>
         <a href="#"><li>WEBSITES</li></a>
       </ol>
-     </div>
-     <div className='front'>
+      </nav>
+     </header>
+     {/* start of main content */}
+     <main className='main'>
+      <div className='front'>
       <h1 className='green'>Hii, I'm John</h1>
       <h1 className='text'>Front<i className='black'>end</i></h1>
       <h1 className='black'>Website Developer</h1>
-      <h3>My name is okusanya ifeoluwa. i am a front-end website developer, video editor and <br /> a graphics designer!</h3>
+      <h3>My name is okusanya ifeoluwa. i am a front-end website developer,<br /> video editor and a graphics designer!</h3>
      </div>
 
     <div className="bg">
@@ -63,6 +68,9 @@ function App() {
       </div>
       
       </div>
+     </main>
+     {/* end of main content */}
+     
        <footer> &copy; 2024 JON-SPYCE</footer>
     </section>
 
@@ -70,4 +78,4 @@ function App() {
 }
 
 
-export default App
+ 
